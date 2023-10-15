@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#boxInput {
+    text-align: center;
+}
+
+#boxInput .error-file {
+    display: none;
+    font-size: small;
+    color: red;
+}
+
+#boxResult {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#boxResult #treeView ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#boxResult #treeView li {
+    margin: 0;
+    padding: 0 20px;
+    border-left: 1px solid #bbb;
+}
+
+ul.object > li > span {
+    color: #4e9590;
+}
+
+ul.array > li > span {
+    color: #bbb;
+}
+
+li span.bracket {
+    color: #f2cab8 !important;
+    font-weight: bold;
+}
